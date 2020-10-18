@@ -1,3 +1,8 @@
+This is my personal networking/resume built with Create React App and Tailwind CSS
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

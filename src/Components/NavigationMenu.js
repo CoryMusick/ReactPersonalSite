@@ -29,7 +29,7 @@ function NavigationMenu(props) {
                     </Link>
                 </li>
                 <li className='inline-block text-lg py-4'>
-                    <Link to='/about' 
+                    <Link to='/projects' 
                     className='text-mintCream hover:underline'
                     onClick={props.closeMenu}>
                     Projects
