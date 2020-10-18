@@ -1,5 +1,4 @@
 import React from 'react'
-import HelloWorld from '../Components/HelloWorld'
 
 function Home(){
     return (
@@ -10,8 +9,9 @@ function Home(){
                     Hello!
                     </h2>
                     <div className='text-xl'>
-                    I am a bootcamp trained full-stack developer and Army veteran with professional experience as a front-end developer.
-                    </div>
+                    As a person, I strive to better myself and my peers by learning from every experience and maintaining a contagious positivity. 
+                    I bring this same energy to my career as a software developer by communicating with and learning from my team as well as quickly 
+                    picking up new languages, frameworks, tools, tips, and tricks.                     </div>
                 </div>
             </div>
         </div>

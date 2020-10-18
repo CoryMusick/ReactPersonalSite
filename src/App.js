@@ -1,6 +1,4 @@
 import React from 'react';
-import Header from './Components/Header'
-import Footer from './Components/Footer'
 import{
   BrowserRouter as Router,
   Switch,
@@ -11,6 +9,7 @@ import Experience from './Views/Experience'
 import Abilities from './Views/Abilities'
 import SideNav from './Components/SideNav'
 import headshot from './Assets/headshot.jpg'
+import Projects from './Views/Projects'
 
 function App() {
   return (
@@ -20,7 +19,7 @@ function App() {
     <div className='flex w-full'>
       <div className='flex w-full flex-col'> 
             <div className='flex w-full flex-col items-center text-mintCream mb-6'>
-              <img className='h-64 w-64 rounded-full'  src={headshot}></img>
+              <img alt='headshot' className='h-64 w-64 rounded-full'  src={headshot}></img>
                   <h1 className='text-3xl'>Cory Musick</h1>
                   <h3 className='text-lg'>Software Developer</h3> 
             </div>  
@@ -38,16 +37,14 @@ function App() {
             <Route path='/abilities'>
             <Abilities />
             </Route>
+            <Route path='/projects'>
+            <Projects />
+            </Route>
             </Switch>
           </div>  
           </div>
         
     </div>
-      
-    
-   
-    <Footer /> 
- 
   </div>
  </Router>
   
