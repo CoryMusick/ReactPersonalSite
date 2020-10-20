@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function NavigationMenu(props) {
     return(
         <div className='w-full'>
-            <ul className='flex justify-around px-32'>
+            <ul className='flex justify-around md:px-32'>
                 <li className='inline-block text-lg py-4'>
                     <Link to='/' 
                     className='text-mintCream hover:underline '
@@ -18,8 +18,7 @@ function NavigationMenu(props) {
                     className='text-mintCream hover:underline'
                     onClick={props.closeMenu}>
                     Experiences
-                    </Link>
-                    
+                    </Link>    
                 </li>
                 <li className='inline-block text-lg py-4'>
                     <Link to='/abilities' 

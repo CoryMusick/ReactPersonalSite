@@ -26,7 +26,7 @@ function App() {
             <div className=''>
             <SideNav />
           </div>      
-            <div className='flex px-32'>
+            <div className='flex md:px-32'>
             <Switch>
             <Route exact path='/'>
             <Home />
