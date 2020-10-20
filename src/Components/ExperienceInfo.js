@@ -1,12 +1,9 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLink } from '@fortawesome/free-solid-svg-icons'
 
-function ProfExp(props) {
-    return(
+function ExperienceInfo(props){
+    render(
         <div className={props.show ? "" : "hidden"}>
-             <div>
-                                                                                                                                                                      
+            <div>                                                                                                                                                           
             <div><span className='font-black text-xl'>  Front End Developer</span> July 2019 - October 2020</div>
             <div className='text-lg'>Grunt Style<a className='ml-2' target="blank_" href='//gruntstyle.com'><span><FontAwesomeIcon size='xs' icon={faLink} /></span></a></div>   
             <ul className="mb-4">
@@ -17,7 +14,7 @@ function ProfExp(props) {
               - Work in a small team to break down a monolithic CSS and JavaScript files into smaller reusable snippets for better code management and faster website load times.
               </li>
               <li>
-              - Integrate thrid-party applications into Grunt Style's website to provide more functionality to customers and employees.
+              - Integrate thrid-party applications into Grunt Style's website to provide more functinality to customers and employees.
               </li>
             </ul>
           </div>
@@ -54,8 +51,8 @@ function ProfExp(props) {
               </li>
             </ul>
           </div>    
-        </div>                                                                                                                           
+        </div>                   
     )
 }
 
-export default ProfExp
+export default ExperienceInfo

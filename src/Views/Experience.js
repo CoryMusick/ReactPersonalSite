@@ -1,21 +1,14 @@
-import React, { useState } from 'react'
-import ProfExp from '../Components/ProfExp'
-import Education from '../Components/Education'
+import React from 'react'
+
+
+import DividedContainer from '../Components/DividedContainer'
 
 function Experience(props){
-const [showEdu, setShowEdu] = useState(false)
 return ( 
-<div className='w-full'>
-  <div className='flex w-full'>
-    <div className='text-darkBlue bg-mintCream rounded-lg shadow flex-col px-4 w-full'>
-      <div className='flex flex-row justify-around'>
-        <div onClick={ showEdu ? () => setShowEdu(false) : null} className={ !showEdu ? "underline text-3xl" : "text-3xl"}>Professional Experience</div>
-        <div onClick={() => setShowEdu(true)}className={ showEdu ? "underline text-3xl" : "text-3xl"}>Education</div> 
-    </div> 
-    <ProfExp show={!showEdu} />
-    <Education show={showEdu} />   
-    </div>
-    </div>                                                                                                                   
+<div className='mx-2'>
+    <DividedContainer
+    titleOne='Professional Experience'
+    titleTwo='Education'/>                                                                                 
 </div>
     )
 }
